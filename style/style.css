@@ -9,7 +9,7 @@ body {
     margin: 0 auto;
 }
 
-.header, .footer {
+.header, .footer{
     background: rgba(255, 113, 67, 0.27);
     padding: 38px 0 48px;
 }
@@ -60,7 +60,8 @@ body {
 }
 
 .button__orange:hover {
-    background-color: #f67c53;
+    background-color: #5454D4;
+    color: #19191B;
     transition: 500ms;
 } 
 
@@ -98,7 +99,14 @@ body {
 
 .button__violet {
     background-color: #5454D4;
+    
 }
+
+.button__violet:hover {
+    background-color: #f67c53;
+    color: #000000;
+    transition: 500ms;
+} 
 
 .button__transparent {
     background-color: none;
@@ -107,8 +115,14 @@ body {
     margin-left: 35px;
 }
 
+.button__transparent:hover {
+    background-color: green;
+    color: #FFFFFF;
+    transition: 500ms;
+} 
+
 .footer {
-    padding: 53px;
+    padding: 53px 0;
 }
 
 .subscribe {
@@ -134,7 +148,7 @@ body {
     margin-right: 39px; 
 }
 
-.input::placeholder, .input {
+.input::placeholder, .input{
     font-weight: 700;
     font-size: 17px;
     line-height: 22px;
@@ -148,6 +162,7 @@ body {
 .plan {
 margin-bottom: 132px;
 }
+
 .plan__title{
     font-weight: 700;
     font-size: 60px;
